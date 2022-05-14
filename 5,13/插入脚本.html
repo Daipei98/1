@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>document.write("Hello World!")</script>
+    <noscript>抱歉,你的游览器不支持JaveScript!</noscript>
+    <p id="demo">
+        Javascript 可以触发事件.就像按钮点击</p>
+        <script>
+        function myFunction()
+        {
+            document.getElementById("demo").innerHTML="Hello JavaScript!";
+        }
+            </script>
+            <button type="button" onclick="myFunction()">点我</button>
+</body>
+</html>

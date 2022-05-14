@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习笔记</title>
+</head>
+<body>  <a href="#one">1常用游览器</a> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<a href="#2"> 2.1Web标准</a> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;<a href="#3">3语法规范 </a><br/>  
+    <a href="#4">4基本结构标签</a> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;   <a href="#5">5网页开发工具</a> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; <a href="#6">6.HTML常用标签</a>  <a href="#7">7注释</a>
+   
+    <h3><a id="one">1常用游览器及其内核</a><br/></h3> 
+     <p> Trident    &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  IE 猎豹  &nbsp; &nbsp; &nbsp;&nbsp;  &nbsp;&nbsp; 360 百度<br/>
+        firefox  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp;&nbsp;   gecko    &nbsp;&nbsp;    &nbsp;&nbsp;&nbsp;&nbsp;   &nbsp;&nbsp;    火狐<br/>
+        Safari   &nbsp; &nbsp;    &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;&nbsp;   Webkit   &nbsp;&nbsp;  &nbsp;&nbsp;   &nbsp;&nbsp; &nbsp;&nbsp;     苹果<br/>
+        chrome/orpera  &nbsp;&nbsp;  &nbsp;&nbsp;    blink  &nbsp;&nbsp;   &nbsp;&nbsp;  &nbsp;&nbsp;  &nbsp;&nbsp;   chrome/opera   Blink是Webkit的分支
+    </p>  <br/>
+    
+    <p><h4><a id=2>2.1Web标准</a><br/></h4>
+        Web 标注是W3C（万维网联盟）组织和其他标准化组织制定的一系列标准的集合.<br/>
+        <h4>2.2Web的组成</h4>
+        Web由&nbsp;结构&nbsp; &nbsp;  表现 &nbsp; &nbsp; 行为 &nbsp;构成<br/>
+        结构  &nbsp; HTML<br/>
+        表现 &nbsp; CSS<br/>
+        行为 &nbsp; javascript</p><br/>
+   
+        <p><h3><a id=3>语法规范</a>3</h3>
+    1由尖括号包围的关键词  如&lt; html &gt; <br/>
+    2通常成对出现  双标签 开始标签 结束标签 <br/>
+    3特殊标签 单标签 &lt; br/ &gt;  </p>  <br/>
+   
+    <p><h3> <a id=4>4基本结构标签</a></h3>
+    &lt;html &gt; &lt;/html &gt;  HTML标签     根标签<br/>
+    &lt;head &gt; &lt;/head &gt;   文档的头部     必须设置title<br/>
+    &lt;title>&gt; &lt;/title &gt;      文档的主体     元素包含文档的所有内容基本都放在body里面  </p><br/>
+   
+    <p><h3><a id=5>5网页开发工具</a></h3>
+    5.1 &lt;!DOCTYPE &gt;文档类型声明，游览器使用那种HTML版本来显示网页.<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;  &lt;!DOCTYPE htme &gt;  当前页面采取的是HTML5版本来显示网页<br/>
+    注意：<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;  1&lt;!DOCTYPE &gt;声明位于文档中的最前面的位置，处于<html>标签之前.<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;  2&lt;!DOCTYPE &gt;不是一个HTML标签，他就是文档类型声明标签.<br/>
+    5.2&nbsp;lang语言种类<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;1.en定义语言喂英文<br/>
+    &nbsp;&nbsp;&nbsp;&nbsp;2.zh-CN 中文<br/>
+    5.3&nbsp;字符集<br/>
+    &nbsp;  &nbsp;在&lt;head &gt;标签，可通过&lt;meta &gt;标签的charset属性来规定HTML文档应该使用哪种字符编码.<br/>
+    &nbsp; &nbsp;&lt;meta charset="UTF-8"/ &gt;<br/>
+    &nbsp; &nbsp;charset常用的值有  GB2312,BIG5,GBK和UTF-8,UFT-8也被称为万国码，基本包含了全世界所有国家需要用到的字符.</p> <br/>
+    
+    <h3><a id=6>6.HTML常用标签</a></h3>
+    标题标签&lt;h1&gt;  &lt; /h1 &lt;-&lt;h6&gt;  &lt; /h6 &gt; <br/>
+    段落标签&lt; p&gt;&lt;/p&gt;  
+    换行标签&lt;br/&gt; <br/>
+    文本格式化标签<br/>
+    &nbsp; &nbsp;<strong>加粗</stong> &nbsp; &nbsp;或者 &nbsp; &nbsp;<b>加粗</b>  &nbsp; &nbsp;  &nbsp; &nbsp;  &nbsp; &lt;steong&gt;更强烈<br/>
+    &nbsp; &nbsp;<em>倾斜</em>   &nbsp; &nbsp;或者 &nbsp; &nbsp;<i>倾斜</i>   &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &lt;em&gt; 更强烈<br/>
+    &nbsp; &nbsp;<del>删除线</del>  &nbsp; &nbsp;或者 &nbsp; &nbsp;<s>删除线</s>  &nbsp; &nbsp;  &lt;del&gt;更强烈<br/>
+    &nbsp; &nbsp;<ins>下划线</ins>  &nbsp; &nbsp;或者 &nbsp; &nbsp;<u>下划线</u>  &nbsp; &nbsp; &lt;ins &gt;更强烈<br/>
+    &lt;div&gt;(大盒子 独行)   &lt;span&gt;(跨度跨距)
+    <h4>图像标签</h4>
+    图像标签&lt;img&gt;标签定义HTML页面中的图像   src是&lt;img&gt;标签的必须属性，他用于指定图像文件的路径和文件名.<br/>
+     scr  图片路径<br/>
+    alt   &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;文本 &nbsp;&nbsp;&nbsp; 替换文本 图片不能显示,显示的文字<br/>
+    title &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;文本  &nbsp;&nbsp;&nbsp; 提示文本，鼠标放在图像上，显示的文字<br/>
+    width  &nbsp;&nbsp;&nbsp;像素&nbsp;&nbsp; &nbsp; 图像宽<br/>
+    height&nbsp;&nbsp;&nbsp;像素 &nbsp;&nbsp;&nbsp;  图像高<br/>
+    border&nbsp;&nbsp;像素 &nbsp;&nbsp;&nbsp;&nbsp;设置图像的边框粗细<br/>
+    <img src="星爷.jpg" alt="周星驰" title="星爷" width="100" height="=400" ><br/>
+    注意<br/>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;图像标签可以有多个属性，必须写在标签名&lt;src&gt;的后面.<br/>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;属性之间不分先后顺序，标签名与属性，属性与属性之间均以空格分开.<br/>
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;属性采取键值对的格式，即key=“value”的格式，属性=“属性值"<br/>
+    
+    <h4>6.8图像标签和路径</h4><br/>
+    根目录：打开目录文件夹的第一层就是根目录<br/>
+    <em>相对路径</em>  以引用文件所在位置作为参考，而建立出的目录路径。图片相对于HTML页面的位置<br/>
+    同一级    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&lt;img src="aa.gif"&gt;<br/>
+    下一级   &nbsp; &nbsp; &nbsp;/&nbsp; &nbsp; &lt;img src="images/aa.gif"&gt;<br/>
+    上一级  &nbsp; &nbsp; ../&nbsp; &nbsp;&lt;img src="../aa.gid"&gt;<br/>
+   <em>绝对路径：</em> 在根目录下的绝对位置，通常从盘符开始的路径或者网络地址<br/>
+   <img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png"><br/>
+   
+   <h5>6.7超链接标签&lt;a&gt:</h5>
+   1链接语法格式   
+  &lt;a href="跳转目标" target=“目标窗口的弹出方式"&gt;文本或者图像&lt;/a&gt; href用于指定连接目标的url地址，必须属性，当标签应用href属性时，它具有超链接的功能target用于指定连接页面<br/>
+  2链接分类<br/>
+  1外部连接<a href="http://www.baidu.com" target="_blank">百度</a><br/>
+  2内部链接  <a href="目录.html">首页</a><br/>
+  3空链接，<a href="#">首页</a><br/>
+  4下载链接；如果href地址是一个文件或者压缩包，会下载这个文件.<br/>
+  5网页元素链接，在网页中的各种网页元素，如文本，图像 表格 音频 视频等都可以添加超链接<br/>
+  6锚点链接；点我们点链接，可以快速定位到页面中的某个位置<br/>
+  在连接文本的href属性中，设置属性值为#名字的形式,如<a href="#two">第二集</a><br/>
+找到目标位置标签，里面添加一个id属性=刚才的名字，如<h3 id=“two”>第二季介绍</h3><br/>
+
+<h3><a id=7>7注释</a></h3>
+HTML中注释以"&lt;!"--开头，以"--&gt;"结束  快捷键ctrl+/
+空格符   &nbsp; <br/>
+小于号   &lt;   <br/>
+大于号   &gt;   <br/>
+和号      &amp; <br/>
+人名币   &yen;  <br/>
+版权    &copy;  <br/>
+注册商标 &reg;  <br/>
+摄氏度 &deg;    <br/>
+正负号  &plusmn;<br/>
+乘号  &times;   <br/>
+除号  &divide;  <br/>
+平方2  &sup2;   <br/>
+立方3  &sup3;   <br/>
+
+
+   
+
+      
+
+
+
+
+
+
+    
+</body>
+</html>

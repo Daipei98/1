@@ -1,0 +1,13 @@
+a {
+    display: block;
+    width: 190px;
+    height: 23px;
+    background-color: rgb(199, 236, 224);
+    font-size: 14px/23px;
+    text-indent: 1.5em;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: rgb(200, 22, 35);
+}

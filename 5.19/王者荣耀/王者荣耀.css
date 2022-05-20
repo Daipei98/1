@@ -1,0 +1,13 @@
+h3 {
+    width: 120px;
+    height: 40px;
+    background-color: pink;
+    font-size: 16px;
+    font: 400;
+    /* 文字不加粗 */
+    line-height: 40px;
+    background-image: url(成长.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    text-indent: 1.5em;
+}
